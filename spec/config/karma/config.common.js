@@ -5,7 +5,7 @@ var browserList;
 if (process.env.MINIMAL_INTEGRATION_TESTS) {
   browserList = ['ChromeHeadless'];
 } else {
-  browserList = ['ChromeHeadless', 'FirefoxHeadless'];
+  browserList = ['Chrome'];
 }
 
 module.exports = {
